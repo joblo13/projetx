@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="EscapeMenuRoot" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="AlwaysOnTop" value="True" />
+        <Window type="TaharezLook/FrameWindow" name="Menu" >
+            <Property name="Area" value="{{0,0},{0,0},{0.2,0},{0.4,0}}" />
+            <Property name="Text" value="Menu" />
+            <Property name="MinSize" value="{{0,0},{0,0}}" />
+            <Property name="AlwaysOnTop" value="True" />
+            <Property name="VerticalAlignment" value="Centre" />
+            <Property name="HorizontalAlignment" value="Centre" />
+            <Window type="TaharezLook/Button" name="Resume_but" >
+                <Property name="Area" value="{{0,0},{0.096,0},{0.55,0},{0.226,0}}" />
+                <Property name="Text" value="Resume" />
+                <Property name="HorizontalAlignment" value="Centre" />
+            </Window>
+            <Window type="TaharezLook/Button" name="Option_but" >
+                <Property name="Area" value="{{0,0},{0.322,0},{0.55,0},{0.452,0}}" />
+                <Property name="Text" value="Option" />
+                <Property name="HorizontalAlignment" value="Centre" />
+            </Window>
+            <Window type="TaharezLook/Button" name="MainMenu_but" >
+                <Property name="Area" value="{{0,0},{0.548,0},{0.55,0},{0.678,0}}" />
+                <Property name="Text" value="Main menu" />
+                <Property name="HorizontalAlignment" value="Centre" />
+            </Window>
+            <Window type="TaharezLook/Button" name="Exit_but" >
+                <Property name="Area" value="{{0,0},{0.774,0},{0.55,0},{0.904,0}}" />
+                <Property name="Text" value="Quit to desktop" />
+                <Property name="HorizontalAlignment" value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

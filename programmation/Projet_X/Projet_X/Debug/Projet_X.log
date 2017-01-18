@@ -1,0 +1,203 @@
+﻿La génération a démarré 2017-01-18 14:01:30.
+     1>Projet "D:\projetXBitbucketFull\joblo_13-projet_x-761ffe2eecdf\programmation\Projet_X\Projet_X\Projet_X.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>ClCompile:
+         F:\programme\visual_studio_2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /D BOOST_ALL_NO_LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AI\Actions\Action.cpp AI\Actions\AddAction.cpp AI\Actions\BuildTemplateAction.cpp AI\Actions\DeleteAction.cpp AI\Actions\MoveAction.cpp AI\Actions\MoveAStarAction.cpp AI\Actions\MoveGroupAction.cpp AI\AStar.cpp AI\BoidGroup.cpp AI\Node.cpp Building\Building.cpp Building\Cycle.cpp Building\BuildingNode.cpp Building\Template.cpp Building\TemplateManager.cpp Camera\Camera.cpp Camera\CameraRTS.cpp Debugger\GlDebugger.cpp Debugger\ProgTools.cpp Entities\HitpointEntity.cpp Entities\House.cpp Entities\Item.cpp Entities\ItemFactory.cpp Entities\ItemInformation.cpp Entities\Ressources\HumanRessources.cpp Entities\Ressources\Ressources.cpp Entities\Unit.cpp Entities\UnitHandler.cpp Entities\Wearable\Armor.cpp Entities\Wearable\KevlarHelmet.cpp Entities\Wieldable\ConstructorWeapon.cpp Entities\Wieldable\MAC10.cpp Entities\Wieldable\Weapon.cpp GUI\ConsoleGUI.cpp GUI\DebugHUD.cpp GUI\EscapeMenuGUI.cpp GUI\FPSGUI.cpp GUI\GUI.cpp GUI\GUIHandler.cpp GUI\MainMenuGUI.cpp GUI\MapGUI.cpp GUI\MaterialSelectionGUI.cpp GUI\RTSAction\ChooseTemplateAction.cpp GUI\RTSAction\FillAction.cpp GUI\RTSAction\RTSAction.cpp GUI\RTSAction\TemplateCreationAction.cpp GUI\RTSAction\UpgradeAction.cpp GUI\RTSGUI.cpp GUI\ShopGUI.cpp GUI\TemplateEditorGUI.cpp hitBox.cpp IconManager.cpp Input.cpp Interpolator.cpp main.cpp Math\Matrix.cpp Math\Matrix3x3.cpp Math\Noise2D.cpp Math\Quaternion.cpp Math\Vector.cpp Math\Vector3I.cpp Math\Vector4f.cpp Observer.cpp OpenGLHandler.cpp Position.cpp Rendering\AnimationInfo.cpp Rendering\DeferredRenderer\DeferredRenderer.cpp Rendering\DeferredRenderer\GBuffer.cpp Rendering\Drawable.cpp Rendering\Instanciable.cpp Rendering\Mesh\Animation.cpp Rendering\Mesh\HitpointBarMesh.cpp Rendering\Mesh\Mesh.cpp Rendering\RenderInformation.cpp Rendering\Texture.cpp Rendering\WhiteCircle.cpp Rendering\WhiteLine.cpp Rendering\WhiteLineInstanciable.cpp Rendering\WhiteRectangle.cpp Rendering\WhitePrismeInstanciable.cpp Rendering\WhiteTerrainLine.cpp SceneOpenGL.cpp Serializer.cpp Shaders\DirLightPassShader.cpp Shaders\GeomPassShader.cpp Shaders\PointLightPassShader.cpp Shaders\Shader.cpp Shaders\ShaderMap.cpp Shaders\ShaderNull.cpp Shaders\ShaderSkyBox.cpp Shaders\ShaderWhiteLine.cpp Terrain\Chunk.cpp Terrain\MarchingCube.cpp Terrain\SkyBox.cpp Terrain\Terrain.cpp Timer.cpp
+         Timer.cpp
+         Terrain.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         SkyBox.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         MarchingCube.cpp
+         Chunk.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         ShaderWhiteLine.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         ShaderSkyBox.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         ShaderNull.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         ShaderMap.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Shader.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         PointLightPassShader.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         GeomPassShader.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         DirLightPassShader.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Serializer.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         SceneOpenGL.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         WhiteTerrainLine.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         WhitePrismeInstanciable.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         WhiteRectangle.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         WhiteLineInstanciable.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         WhiteLine.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Génération de code en cours...
+         Compilation en cours...
+         WhiteCircle.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Texture.cpp
+     1>D:\projetXBitbucketFull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\GL/glu.h(37): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         RenderInformation.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Mesh.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         HitpointBarMesh.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Animation.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Instanciable.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Drawable.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         GBuffer.cpp
+     1>Rendering\DeferredRenderer\GBuffer.cpp(1): fatal error C1083: Impossible d'ouvrir le fichier include : 'stdio.h' : No such file or directory
+         DeferredRenderer.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\projet_x\projet_x\rendering\deferredrenderer\DeferredRenderer.h(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'math.h' : No such file or directory
+         AnimationInfo.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Position.cpp
+         OpenGLHandler.cpp
+     1>D:\projetXBitbucketFull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\GL/glu.h(37): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         Observer.cpp
+         Vector4f.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Vector3I.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Vector.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Quaternion.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Noise2D.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\projet_x\projet_x\math\Noise2D.h(5): fatal error C1083: Impossible d'ouvrir le fichier include : 'stdlib.h' : No such file or directory
+         Matrix3x3.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Génération de code en cours...
+         Compilation en cours...
+         Matrix.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         main.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         Interpolator.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         Input.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         IconManager.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         hitBox.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         TemplateEditorGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         ShopGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         RTSGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         UpgradeAction.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         TemplateCreationAction.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         RTSAction.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         FillAction.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         ChooseTemplateAction.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         MaterialSelectionGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         MapGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         MainMenuGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         GUIHandler.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         GUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         FPSGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Génération de code en cours...
+         Compilation en cours...
+         EscapeMenuGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         DebugHUD.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         ConsoleGUI.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Weapon.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         MAC10.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         ConstructorWeapon.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         KevlarHelmet.cpp
+         Armor.cpp
+         UnitHandler.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Unit.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         Ressources.cpp
+     1>D:\projetXBitbucketFull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\GL/glu.h(37): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         HumanRessources.cpp
+     1>D:\projetXBitbucketFull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\GL/glu.h(37): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         ItemInformation.cpp
+         ItemFactory.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Item.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         House.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         HitpointEntity.cpp
+     1>Entities\HitpointEntity.cpp(29): warning C4244: 'return' : conversion de 'float' en 'int', perte possible de données
+         ProgTools.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         GlDebugger.cpp
+     1>D:\projetXBitbucketFull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\GL/glu.h(37): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         CameraRTS.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         Génération de code en cours...
+         Compilation en cours...
+         Camera.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         TemplateManager.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Template.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         BuildingNode.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Cycle.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Building.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         Node.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         BoidGroup.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         AStar.cpp
+     1>F:\programme\visual_studio_2015\VC\include\crtdefs.h(10): fatal error C1083: Impossible d'ouvrir le fichier include : 'corecrt.h' : No such file or directory
+         MoveGroupAction.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         MoveAStarAction.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         MoveAction.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         DeleteAction.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         BuildTemplateAction.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         AddAction.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         Action.cpp
+     1>d:\projetxbitbucketfull\joblo_13-projet_x-761ffe2eecdf\programmation\librairie\include\sdl\SDL_stdinc.h(52): fatal error C1083: Impossible d'ouvrir le fichier include : 'stddef.h' : No such file or directory
+         Génération de code en cours...
+     1>Génération du projet "D:\projetXBitbucketFull\joblo_13-projet_x-761ffe2eecdf\programmation\Projet_X\Projet_X\Projet_X.vcxproj" terminée (Rebuild cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:03.64

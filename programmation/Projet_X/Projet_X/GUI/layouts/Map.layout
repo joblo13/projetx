@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="MapRoot" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="MinSize" value="{{1,0},{1,0}}" />
+        <Window type="TaharezLook/FrameWindow" name="map" >
+            <Property name="Area" value="{{0,0},{0,0},{0.155,0},{0.25,0}}" />
+            <Property name="FrameEnabled" value="false" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="TitlebarEnabled" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <Property name="VerticalAlignment" value="Bottom" />
+            <Property name="CloseButtonEnabled" value="false" />
+            <Property name="AutoRenderingSurface" value="true" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_closebutton__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="true" />
+            </AutoWindow>
+            <Window type="TaharezLook/StaticImage" name="map_img" >
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="BackgroundEnabled" value="true" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

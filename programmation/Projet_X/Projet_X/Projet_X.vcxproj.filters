@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Terrain">
+      <UniqueIdentifier>{a16361ef-4eb9-483b-9645-287caa399f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Terrain">
+      <UniqueIdentifier>{d0ea5686-7de2-43b2-bc4d-3c98c1aeb5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Shaders">
+      <UniqueIdentifier>{674b3a3b-07a8-4665-a487-4df69b37cd84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Shaders">
+      <UniqueIdentifier>{6e801fb8-5a8e-4f89-a557-30f235a04fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\AI">
+      <UniqueIdentifier>{18de5cd1-0196-44bd-93f8-08115e7a93bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\AI">
+      <UniqueIdentifier>{609f5743-3fb9-4583-b11d-ac4429fcd7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Entities">
+      <UniqueIdentifier>{4bcfebc7-cd46-4f61-81fc-ee0dfa5a8513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Entities">
+      <UniqueIdentifier>{5a692bf2-7d9d-465a-b24a-f7a649065ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\AI\Actions">
+      <UniqueIdentifier>{926e8b9d-a355-4218-a6a7-75c00725531d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\AI\Actions">
+      <UniqueIdentifier>{d46ec20d-eb60-412c-a5f7-91e809f3943c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Building">
+      <UniqueIdentifier>{633b7646-018b-46af-a3e9-2af32c7c1e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Building">
+      <UniqueIdentifier>{b63413ff-e5df-4069-80d2-3302dcb6a1b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Math">
+      <UniqueIdentifier>{9209489a-5030-4209-b5b3-449ec3ff20ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Math">
+      <UniqueIdentifier>{43cb2e0c-4245-4488-94de-463f628d303d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Camera">
+      <UniqueIdentifier>{08f7a0f7-24b8-4d27-823c-99e151aca0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Camera">
+      <UniqueIdentifier>{3f359af8-77fe-4b47-8da8-2671436d2839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Debugger">
+      <UniqueIdentifier>{628de7c5-4fea-4429-a7bd-c458a0ae347e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Debugger">
+      <UniqueIdentifier>{f320c7e5-4fac-4647-a627-8a9fd7021e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Entities\Ressources">
+      <UniqueIdentifier>{efe5596c-1db1-4b32-b37a-635aa833b566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Entities\Ressources">
+      <UniqueIdentifier>{942f6318-eec0-4609-a392-54253caf5371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GUI">
+      <UniqueIdentifier>{10eb8704-6ded-4de7-9bc3-ed361cb8c322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GUI">
+      <UniqueIdentifier>{611767a2-de22-46fd-81ce-1b29e71ba722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Entities\Wearable">
+      <UniqueIdentifier>{9465284d-de2c-42ca-a61c-f5d5a7fa315d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Entities\Wieldable">
+      <UniqueIdentifier>{5f94ef02-f3f9-44d7-80ff-fd9bf87e155d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Entities\Wieldable">
+      <UniqueIdentifier>{07a61ab0-b705-4fa5-a990-9b0bb13d79b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Entities\Wearable">
+      <UniqueIdentifier>{0415a7c4-6cd4-42a1-9a84-5fc9ff42d0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Rendering">
+      <UniqueIdentifier>{ace8a695-a360-4c3d-b18a-321c07c6f03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Rendering\Mesh">
+      <UniqueIdentifier>{54bf170d-227c-4735-8528-e96d682e964c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Rendering">
+      <UniqueIdentifier>{58691b31-8844-4802-94b1-007de1e86852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Rendering\Mesh">
+      <UniqueIdentifier>{530cfd1d-7d53-44b1-9eff-b1268c962550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Rendering\DeferrredRenderer">
+      <UniqueIdentifier>{3bc4a2a8-b6ac-4bcf-886f-03533dd349e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Rendering\DeferredRenderer">
+      <UniqueIdentifier>{876023cf-dc1f-4e86-8237-726169f890d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\GUI\RTSAction">
+      <UniqueIdentifier>{122fa3e3-fe03-40c4-a69d-4a7bf159ec4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\GUI\RTSAction">
+      <UniqueIdentifier>{b1abe492-bb40-4f86-a24b-d0228b679a11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Chunk.cpp">
+      <Filter>Fichiers sources\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\Terrain.cpp">
+      <Filter>Fichiers sources\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="hitBox.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\SkyBox.cpp">
+      <Filter>Fichiers sources\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Shader.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderSkyBox.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\AStar.cpp">
+      <Filter>Fichiers sources\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Node.cpp">
+      <Filter>Fichiers sources\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Unit.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\UnitHandler.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Actions\Action.cpp">
+      <Filter>Fichiers sources\AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Actions\MoveAction.cpp">
+      <Filter>Fichiers sources\AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Actions\DeleteAction.cpp">
+      <Filter>Fichiers sources\AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Actions\AddAction.cpp">
+      <Filter>Fichiers sources\AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\House.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\Building.cpp">
+      <Filter>Fichiers sources\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\Cycle.cpp">
+      <Filter>Fichiers sources\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\BuildingNode.cpp">
+      <Filter>Fichiers sources\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Actions\MoveAStarAction.cpp">
+      <Filter>Fichiers sources\AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Noise2D.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3I.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix3x3.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolator.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneOpenGL.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\CameraRTS.cpp">
+      <Filter>Fichiers sources\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Fichiers sources\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderWhiteLine.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Ressources\HumanRessources.cpp">
+      <Filter>Fichiers sources\Entities\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Ressources\Ressources.cpp">
+      <Filter>Fichiers sources\Entities\Ressources</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUIHandler.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger\ProgTools.cpp">
+      <Filter>Fichiers sources\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\FPSGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ConsoleGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\DebugHUD.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderMap.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RTSGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Actions\MoveGroupAction.cpp">
+      <Filter>Fichiers sources\AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\ShopGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain\MarchingCube.cpp">
+      <Filter>Fichiers sources\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\MaterialSelectionGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\EscapeMenuGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\MainMenuGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger\GlDebugger.cpp">
+      <Filter>Fichiers sources\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Wearable\Armor.cpp">
+      <Filter>Fichiers sources\Entities\Wearable</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\ItemInformation.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Wieldable\ConstructorWeapon.cpp">
+      <Filter>Fichiers sources\Entities\Wieldable</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Wieldable\MAC10.cpp">
+      <Filter>Fichiers sources\Entities\Wieldable</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Wieldable\Weapon.cpp">
+      <Filter>Fichiers sources\Entities\Wieldable</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Item.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\ItemFactory.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\Wearable\KevlarHelmet.cpp">
+      <Filter>Fichiers sources\Entities\Wearable</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\DirLightPassShader.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\GeomPassShader.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\PointLightPassShader.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\ShaderNull.cpp">
+      <Filter>Fichiers sources\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenGLHandler.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\AnimationInfo.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Drawable.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Instanciable.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\RenderInformation.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Texture.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\WhiteCircle.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\WhiteLine.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\WhiteLineInstanciable.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\WhiteRectangle.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\WhiteTerrainLine.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Mesh\Animation.cpp">
+      <Filter>Fichiers sources\Rendering\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Mesh\Mesh.cpp">
+      <Filter>Fichiers sources\Rendering\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\DeferredRenderer\DeferredRenderer.cpp">
+      <Filter>Fichiers sources\Rendering\DeferredRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\DeferredRenderer\GBuffer.cpp">
+      <Filter>Fichiers sources\Rendering\DeferredRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4f.cpp">
+      <Filter>Fichiers sources\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\BoidGroup.cpp">
+      <Filter>Fichiers sources\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\Template.cpp">
+      <Filter>Fichiers sources\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="Building\TemplateManager.cpp">
+      <Filter>Fichiers sources\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Actions\BuildTemplateAction.cpp">
+      <Filter>Fichiers sources\AI\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\WhitePrismeInstanciable.cpp">
+      <Filter>Fichiers sources\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\TemplateEditorGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="IconManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Mesh\HitpointBarMesh.cpp">
+      <Filter>Fichiers sources\Rendering\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Entities\HitpointEntity.cpp">
+      <Filter>Fichiers sources\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RTSAction\RTSAction.cpp">
+      <Filter>Fichiers sources\GUI\RTSAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RTSAction\ChooseTemplateAction.cpp">
+      <Filter>Fichiers sources\GUI\RTSAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RTSAction\TemplateCreationAction.cpp">
+      <Filter>Fichiers sources\GUI\RTSAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RTSAction\FillAction.cpp">
+      <Filter>Fichiers sources\GUI\RTSAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\RTSAction\UpgradeAction.cpp">
+      <Filter>Fichiers sources\GUI\RTSAction</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\MapGUI.cpp">
+      <Filter>Fichiers sources\GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Terrain\Chunk.h">
+      <Filter>Fichiers d%27en-tête\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\Terrain.h">
+      <Filter>Fichiers d%27en-tête\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneOpenGL.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="hitBox.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\SkyBox.h">
+      <Filter>Fichiers d%27en-tête\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="definition.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Shader.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\AStar.h">
+      <Filter>Fichiers d%27en-tête\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Node.h">
+      <Filter>Fichiers d%27en-tête\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Unit.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\UnitHandler.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\Action.h">
+      <Filter>Fichiers d%27en-tête\AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\MoveAction.h">
+      <Filter>Fichiers d%27en-tête\AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\DeleteAction.h">
+      <Filter>Fichiers d%27en-tête\AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\AddAction.h">
+      <Filter>Fichiers d%27en-tête\AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\House.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\Building.h">
+      <Filter>Fichiers d%27en-tête\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\Cycle.h">
+      <Filter>Fichiers d%27en-tête\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\BuildingNode.h">
+      <Filter>Fichiers d%27en-tête\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\MoveAStarAction.h">
+      <Filter>Fichiers d%27en-tête\AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Noise2D.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3I.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix3x3.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolator.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\CameraRTS.h">
+      <Filter>Fichiers d%27en-tête\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Fichiers d%27en-tête\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderWhiteLine.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Ressources\HumanRessources.h">
+      <Filter>Fichiers d%27en-tête\Entities\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Ressources\Ressources.h">
+      <Filter>Fichiers d%27en-tête\Entities\Ressources</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUIHandler.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger\ProgTools.h">
+      <Filter>Fichiers d%27en-tête\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\FPSGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\ConsoleGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\DebugHUD.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderMap.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\RTSGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\MoveGroupAction.h">
+      <Filter>Fichiers d%27en-tête\AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\AnimationInfo.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\ShopGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain\MarchingCube.h">
+      <Filter>Fichiers d%27en-tête\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\MaterialSelectionGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\EscapeMenuGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\MainMenuGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger\GlDebugger.h">
+      <Filter>Fichiers d%27en-tête\Debugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Wearable\Armor.h">
+      <Filter>Fichiers d%27en-tête\Entities\Wearable</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\ItemInformation.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Wieldable\ConstructorWeapon.h">
+      <Filter>Fichiers d%27en-tête\Entities\Wieldable</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Wieldable\Mac10.h">
+      <Filter>Fichiers d%27en-tête\Entities\Wieldable</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Wieldable\Weapon.h">
+      <Filter>Fichiers d%27en-tête\Entities\Wieldable</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Item.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\ItemFactory.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Wearable\KevlarHelmet.h">
+      <Filter>Fichiers d%27en-tête\Entities\Wearable</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\DirLightPassShader.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\GeomPassShader.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\PointLightPassShader.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderNull.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ShaderSkyBox.h">
+      <Filter>Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLHandler.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Mesh\Animation.h">
+      <Filter>Fichiers d%27en-tête\Rendering\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Mesh\Mesh.h">
+      <Filter>Fichiers d%27en-tête\Rendering\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\AnimationInfo.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Drawable.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Instanciable.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\RenderInformation.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Texture.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\WhiteCircle.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\WhiteLine.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\WhiteLineInstanciable.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\WhiteRectangle.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\WhiteTerrainLine.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\DeferredRenderer\DeferredRenderer.h">
+      <Filter>Fichiers d%27en-tête\Rendering\DeferrredRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\DeferredRenderer\GBuffer.h">
+      <Filter>Fichiers d%27en-tête\Rendering\DeferrredRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\DeferredRenderer\LightsCommon.h">
+      <Filter>Fichiers d%27en-tête\Rendering\DeferrredRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\DeferredRenderer\Util.h">
+      <Filter>Fichiers d%27en-tête\Rendering\DeferrredRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4f.h">
+      <Filter>Fichiers d%27en-tête\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\BoidGroup.h">
+      <Filter>Fichiers d%27en-tête\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\Template.h">
+      <Filter>Fichiers d%27en-tête\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="Building\TemplateManager.h">
+      <Filter>Fichiers d%27en-tête\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\Actions\BuildTemplateAction.h">
+      <Filter>Fichiers d%27en-tête\AI\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\WhitePrismeInstanciable.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\TemplateEditorGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IconManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Mesh\HitpointBarMesh.h">
+      <Filter>Fichiers d%27en-tête\Rendering\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\HitpointEntity.h">
+      <Filter>Fichiers d%27en-tête\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\RTSAction\RTSAction.h">
+      <Filter>Fichiers d%27en-tête\GUI\RTSAction</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\RTSAction\ChooseTemplateAction.h">
+      <Filter>Fichiers d%27en-tête\GUI\RTSAction</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\RTSAction\TemplateCreationAction.h">
+      <Filter>Fichiers d%27en-tête\GUI\RTSAction</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\RTSAction\FillAction.h">
+      <Filter>Fichiers d%27en-tête\GUI\RTSAction</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\RTSAction\UpgradeAction.h">
+      <Filter>Fichiers d%27en-tête\GUI\RTSAction</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\MapGUI.h">
+      <Filter>Fichiers d%27en-tête\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Color.h">
+      <Filter>Fichiers d%27en-tête\Rendering</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

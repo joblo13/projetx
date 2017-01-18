@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="ConsoleRoot" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="AlwaysOnTop" value="True" />
+        <Window type="TaharezLook/FrameWindow" name="Console" >
+            <Property name="Area" value="{{0,80},{0,65},{0,588},{0,524}}" />
+            <Property name="Text" value="Console" />
+            <Property name="MinSize" value="{{0,300},{0,300}}" />
+            <Property name="AlwaysOnTop" value="True" />
+            <Window type="TaharezLook/Editbox" name="textToSend_editbox" >
+                <Property name="Area" value="{{0.02,0},{0.89,0},{0.75,0},{0.97,0}}" />
+            </Window>
+            <Window type="TaharezLook/Listbox" name="resultText_listbox" >
+                <Property name="Area" value="{{0.02,0},{0.02,0},{0.98,0},{0.87,0}}" />
+            </Window>
+            <Window type="TaharezLook/Button" name="Send_but" >
+                <Property name="Area" value="{{0.78,0},{0.89,0},{0.98,0},{0.965,0}}" />
+                <Property name="Text" value="Send" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

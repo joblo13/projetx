@@ -1,0 +1,60 @@
+#include "ShaderNull.h"
+
+////////////////////////////////////////////////////////////////////////
+///
+/// @fn ShaderMesh() 
+///
+/// Constructeur
+///
+/// @return Aucune
+///
+////////////////////////////////////////////////////////////////////////
+ShaderNull::ShaderNull() 
+{
+	m_vertexSource = "Shaders/glsl/null.vert";
+	m_fragmentSource = "Shaders/glsl/null.frag";
+	m_vertexID = 0;
+	m_fragmentID = 0;
+	m_programID = 0;
+}
+
+////////////////////////////////////////////////////////////////////////
+///
+/// @fn ~ShaderMesh() 
+///
+/// Destructeur
+/// Detruit les programmes sur la carte graphique
+///
+/// @return Aucune
+///
+////////////////////////////////////////////////////////////////////////
+ShaderNull::~ShaderNull()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+///
+/// @fn void bindAttribLocation()
+///
+/// Fonction permettant de créer le lien entre les variables du shader et le programme
+///
+/// @return Aucune
+///
+////////////////////////////////////////////////////////////////////////
+void ShaderNull::bindAttribLocation()
+{
+}
+
+////////////////////////////////////////////////////////////////////////
+///
+/// @fn void bindUniformLocation()
+///
+/// Fonction permettant de créer le lien entre les variables uniforme du shader et le programme
+///
+/// @return Aucune
+///
+////////////////////////////////////////////////////////////////////////
+void ShaderNull::bindUniformLocation()
+{
+	m_uniformVariable["InProjectionModelview"] = glGetUniformLocation (m_programID, "InProjectionModelview");
+}

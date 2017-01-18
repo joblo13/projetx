@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="MainMenuRoot" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="AlwaysOnTop" value="True" />
+        <Window type="TaharezLook/Button" name="start_but" >
+            <Property name="Area" value="{{0,0},{0,0},{0,96},{0,32}}" />
+            <Property name="Text" value="Start" />
+            <Property name="VerticalAlignment" value="Centre" />
+            <Property name="HorizontalAlignment" value="Centre" />
+            <Property name="AutoRenderingSurface" value="True" />
+        </Window>
+    </Window>
+</GUILayout>

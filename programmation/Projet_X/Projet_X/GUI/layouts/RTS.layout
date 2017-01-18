@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="RTSRoot" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Property name="MinSize" value="{{1,0},{1,0}}" />
+        <Window type="TaharezLook/FrameWindow" name="compas" >
+            <Property name="Area" value="{{0,0},{0.7,0},{0.155,0},{0.75,0}}" />
+            <Property name="Alpha" value="0" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="MinSize" value="{{0,0},{0,0}}" />
+            <Property name="FrameEnabled" value="false" />
+            <Property name="RollUpEnabled" value="false" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="TitlebarEnabled" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <Property name="CloseButtonEnabled" value="false" />
+            <Property name="AutoRenderingSurface" value="true" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_closebutton__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="true" />
+            </AutoWindow>
+            <Window type="Generic/Image" name="compas_img" >
+                <Property name="Area" value="{{0,0},{0,0},{0,960},{0,47}}" />
+                <Property name="Alpha" value="0.8" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="InheritsAlpha" value="false" />
+                <Property name="HorzFormatting" value="Tiled" />
+            </Window>
+        </Window>
+        <Window type="TaharezLook/FrameWindow" name="information" >
+            <Property name="Area" value="{{-0.111,0},{0,0},{0.357,0},{0.25,0}}" />
+            <Property name="FrameEnabled" value="false" />
+            <Property name="RollUpEnabled" value="false" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="TitlebarEnabled" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <Property name="VerticalAlignment" value="Bottom" />
+            <Property name="CloseButtonEnabled" value="false" />
+            <Property name="HorizontalAlignment" value="Centre" />
+            <Property name="AutoRenderingSurface" value="true" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_closebutton__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="true" />
+            </AutoWindow>
+            <Window type="TaharezLook/StaticText" name="information_text" >
+                <Property name="Area" value="{{0.025,0},{0.05,0},{0.975,0},{0.95,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="BackgroundEnabled" value="true" />
+                <Property name="HorzScrollPageSize" value="557" />
+                <Property name="VertScrollPageSize" value="150" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window type="TaharezLook/FrameWindow" name="template" >
+            <Property name="Area" value="{{0,0},{-0.07,0},{0.377,0},{0.109,0}}" />
+            <Property name="FrameEnabled" value="false" />
+            <Property name="RollUpEnabled" value="false" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="TitlebarEnabled" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <Property name="VerticalAlignment" value="Bottom" />
+            <Property name="CloseButtonEnabled" value="false" />
+            <Property name="HorizontalAlignment" value="Right" />
+            <Property name="AutoRenderingSurface" value="true" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_closebutton__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="true" />
+            </AutoWindow>
+            <Window type="TaharezLook/StaticText" name="templateList_text" >
+                <Property name="Area" value="{{0.025,0},{0.05,0},{0.975,0},{0.95,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="BackgroundEnabled" value="true" />
+                <Property name="HorzScrollPageSize" value="447" />
+                <Property name="VertScrollPageSize" value="104" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+            </Window>
+        </Window>
+        <Window type="TaharezLook/FrameWindow" name="ressources" >
+            <Property name="Area" value="{{0,0},{0,0},{0.377,0},{0.07,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="MinSize" value="{{0,0},{0,0}}" />
+            <Property name="TooltipText" value="tesst" />
+            <Property name="FrameEnabled" value="false" />
+            <Property name="RollUpEnabled" value="false" />
+            <Property name="SizingEnabled" value="false" />
+            <Property name="TitlebarEnabled" value="false" />
+            <Property name="DragMovingEnabled" value="false" />
+            <Property name="VerticalAlignment" value="Bottom" />
+            <Property name="CloseButtonEnabled" value="false" />
+            <Property name="HorizontalAlignment" value="Right" />
+            <Property name="AutoRenderingSurface" value="true" />
+            <AutoWindow namePath="__auto_titlebar__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="false" />
+                <Property name="TooltipText" value="tesst" />
+                <Property name="DraggingEnabled" value="false" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_closebutton__" >
+                <Property name="NonClient" value="true" />
+                <Property name="AlwaysOnTop" value="true" />
+                <Property name="TooltipText" value="tesst" />
+            </AutoWindow>
+            <Window type="TaharezLook/StaticText" name="res_cube" >
+                <Property name="Area" value="{{0.02,0},{0.3,0},{0.19,0},{0.75,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="TooltipText" value="tesst" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="HorzFormatting" value="RightAligned" />
+                <Property name="BackgroundEnabled" value="true" />
+                <Property name="HorzScrollPageSize" value="70" />
+                <Property name="VertScrollPageSize" value="11" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <Window type="Generic/Image" name="res_cube_img" >
+                    <Property name="Area" value="{{0,1},{0,1},{0.27,1},{0.9,1}}" />
+                    <Property name="Image" value="FPS/humanCube" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="tesst" />
+                </Window>
+            </Window>
+            <Window type="TaharezLook/StaticText" name="res_vehiculePart" >
+                <Property name="Area" value="{{0.4,0},{0.3,0},{0.57,0},{0.75,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="TooltipText" value="tesst" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="HorzFormatting" value="RightAligned" />
+                <Property name="BackgroundEnabled" value="true" />
+                <Property name="HorzScrollPageSize" value="70" />
+                <Property name="VertScrollPageSize" value="11" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <Window type="Generic/Image" name="res_vehiculePart_img" >
+                    <Property name="Area" value="{{0,1},{0,1},{0.6,1},{0.9,1}}" />
+                    <Property name="Image" value="FPS/humanVehiculePart" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="tesst" />
+                </Window>
+            </Window>
+            <Window type="TaharezLook/StaticText" name="res_weaponPart" >
+                <Property name="Area" value="{{0.21,0},{0.3,0},{0.38,0},{0.75,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="TooltipText" value="tesst" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="HorzFormatting" value="RightAligned" />
+                <Property name="BackgroundEnabled" value="true" />
+                <Property name="HorzScrollPageSize" value="70" />
+                <Property name="VertScrollPageSize" value="11" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <Window type="Generic/Image" name="res_weaponPart_img" >
+                    <Property name="Area" value="{{0,1},{0,1},{0.3,1},{0.9,1}}" />
+                    <Property name="Image" value="FPS/humanWeaponPart" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="tesst" />
+                </Window>
+            </Window>
+            <Window type="TaharezLook/StaticText" name="res_advancedPart" >
+                <Property name="Area" value="{{0.59,0},{0.3,0},{0.76,0},{0.75,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="TooltipText" value="tesst" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="HorzFormatting" value="RightAligned" />
+                <Property name="BackgroundEnabled" value="true" />
+                <Property name="HorzScrollPageSize" value="70" />
+                <Property name="VertScrollPageSize" value="11" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <Window type="Generic/Image" name="res_advancedPart_img" >
+                    <Property name="Area" value="{{0,1},{0,1},{0.3,1},{0.9,1}}" />
+                    <Property name="Image" value="FPS/humanAdvancedPart" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="tesst" />
+                </Window>
+            </Window>
+            <Window type="TaharezLook/StaticText" name="res_population" >
+                <Property name="Area" value="{{0.78,0},{0.3,0},{0.95,0},{0.75,0}}" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="TooltipText" value="tesst" />
+                <Property name="FrameEnabled" value="true" />
+                <Property name="BackgroundEnabled" value="true" />
+                <Property name="HorzScrollPageSize" value="70" />
+                <Property name="VertScrollPageSize" value="11" />
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <Property name="TooltipText" value="tesst" />
+                    <Property name="VerticalScrollbar" value="true" />
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="TooltipText" value="tesst" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="TooltipText" value="tesst" />
+                        <Property name="MouseInputPropagationEnabled" value="true" />
+                    </AutoWindow>
+                </AutoWindow>
+                <Window type="Generic/Image" name="res_population_img" >
+                    <Property name="Area" value="{{0,1},{0,1},{0.27,1},{0.9,1}}" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="TooltipText" value="tesst" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

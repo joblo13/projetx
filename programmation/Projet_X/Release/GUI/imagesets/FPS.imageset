@@ -1,0 +1,13 @@
+<Imageset autoScaled="vertical" imagefile="FPS.png" name="FPS" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="22" name="humanCube" width="22" xPos="0" yPos="0" />
+    <Image height="22" name="humanWeaponPart" width="24" xPos="22" yPos="0" />
+    <Image height="22" name="humanVehiculePart" width="48" xPos="46" yPos="0" />
+    <Image height="22" name="humanAdvancedPart" width="22" xPos="94" yPos="0" />
+    <Image height="40" name="heal" width="40" xPos="116" yPos="0" />
+    <Image height="47" name="compas" width="480" xPos="544" yPos="0" />
+    <Image height="45" name="gearLeafPushed" width="44" xPos="939" yPos="979" />
+    <Image height="152" name="gearTree" width="40" xPos="984" yPos="872" />
+    <Image height="45" name="gearLeafHover" width="44" xPos="894" yPos="979" />
+    <Image height="45" name="gearLeaf" width="44" xPos="849" yPos="979" />
+    <Image height="27" name="listBox" width="107" xPos="740" yPos="997" />
+</Imageset>

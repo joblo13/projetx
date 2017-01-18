@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC2341B1-2409-4FF2-9646-D3FC62F2C591}</ProjectGuid>
+    <RootNamespace>Projet_X</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(SolutionDir)\..\librairie\lib\;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(SolutionDir)\..\librairie\lib\bullet\;$(SolutionDir)\..\librairie\lib\cegui;$(SolutionDir)\..\librairie\lib\boost;$(SolutionDir)\..\librairie\lib\vld</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)\..\librairie\include\;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(SolutionDir)\..\librairie\include\bullet\;$(SolutionDir)\..\librairie\include\boost;$(SolutionDir)\..\librairie\include\vld\</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)\..\librairie\include\;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(SolutionDir)\..\librairie\include\bullet\;$(SolutionDir)\..\librairie\include\boost\</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\librairie\lib\;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(SolutionDir)\..\librairie\lib\bullet\;$(SolutionDir)\..\librairie\lib\cegui\;$(SolutionDir)\..\librairie\lib\boost\</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_MBCS;BOOST_ALL_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;SDL.lib;SDLmain.lib;opengl32.lib;glew32.lib;assimp_R_x86.lib;DevIL.lib;ILU.lib;ILUT.lib;CEGUIBase-0_d.lib;CEGUIOpenGLRenderer-0_d.lib;OpenGLSupport_debug.lib;BulletDynamics_debug.lib;BulletCollision_debug.lib;LinearMath_debug.lib;libboost_filesystem-vc100-mt-gd-1_56.lib;libboost_system-vc100-mt-gd-1_56.lib;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <Profile>true</Profile>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_MBCS;BOOST_ALL_NO_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;SDL.lib;SDLmain.lib;opengl32.lib;glew32.lib;assimp_R_x86.lib;DevIL.lib;ILU.lib;ILUT.lib;CEGUIBase-0.lib;CEGUIOpenGLRenderer-0.lib;OpenGLSupport.lib;BulletDynamics.lib;BulletCollision.lib;LinearMath.lib;libboost_filesystem-vc100-mt-1_56.lib;libboost_system-vc100-mt-1_56.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AI\Actions\Action.cpp" />
+    <ClCompile Include="AI\Actions\AddAction.cpp" />
+    <ClCompile Include="AI\Actions\BuildTemplateAction.cpp" />
+    <ClCompile Include="AI\Actions\DeleteAction.cpp" />
+    <ClCompile Include="AI\Actions\MoveAction.cpp" />
+    <ClCompile Include="AI\Actions\MoveAStarAction.cpp" />
+    <ClCompile Include="AI\Actions\MoveGroupAction.cpp" />
+    <ClCompile Include="AI\AStar.cpp" />
+    <ClCompile Include="AI\BoidGroup.cpp" />
+    <ClCompile Include="AI\Node.cpp" />
+    <ClCompile Include="Building\Building.cpp" />
+    <ClCompile Include="Building\Cycle.cpp" />
+    <ClCompile Include="Building\BuildingNode.cpp" />
+    <ClCompile Include="Building\Template.cpp" />
+    <ClCompile Include="Building\TemplateManager.cpp" />
+    <ClCompile Include="Camera\Camera.cpp" />
+    <ClCompile Include="Camera\CameraRTS.cpp" />
+    <ClCompile Include="Debugger\GlDebugger.cpp" />
+    <ClCompile Include="Debugger\ProgTools.cpp" />
+    <ClCompile Include="Entities\HitpointEntity.cpp" />
+    <ClCompile Include="Entities\House.cpp" />
+    <ClCompile Include="Entities\Item.cpp" />
+    <ClCompile Include="Entities\ItemFactory.cpp" />
+    <ClCompile Include="Entities\ItemInformation.cpp" />
+    <ClCompile Include="Entities\Ressources\HumanRessources.cpp" />
+    <ClCompile Include="Entities\Ressources\Ressources.cpp" />
+    <ClCompile Include="Entities\Unit.cpp" />
+    <ClCompile Include="Entities\UnitHandler.cpp" />
+    <ClCompile Include="Entities\Wearable\Armor.cpp" />
+    <ClCompile Include="Entities\Wearable\KevlarHelmet.cpp" />
+    <ClCompile Include="Entities\Wieldable\ConstructorWeapon.cpp" />
+    <ClCompile Include="Entities\Wieldable\MAC10.cpp" />
+    <ClCompile Include="Entities\Wieldable\Weapon.cpp" />
+    <ClCompile Include="GUI\ConsoleGUI.cpp" />
+    <ClCompile Include="GUI\DebugHUD.cpp" />
+    <ClCompile Include="GUI\EscapeMenuGUI.cpp" />
+    <ClCompile Include="GUI\FPSGUI.cpp" />
+    <ClCompile Include="GUI\GUI.cpp" />
+    <ClCompile Include="GUI\GUIHandler.cpp" />
+    <ClCompile Include="GUI\MainMenuGUI.cpp" />
+    <ClCompile Include="GUI\MapGUI.cpp" />
+    <ClCompile Include="GUI\MaterialSelectionGUI.cpp" />
+    <ClCompile Include="GUI\RTSAction\ChooseTemplateAction.cpp" />
+    <ClCompile Include="GUI\RTSAction\FillAction.cpp" />
+    <ClCompile Include="GUI\RTSAction\RTSAction.cpp" />
+    <ClCompile Include="GUI\RTSAction\TemplateCreationAction.cpp" />
+    <ClCompile Include="GUI\RTSAction\UpgradeAction.cpp" />
+    <ClCompile Include="GUI\RTSGUI.cpp" />
+    <ClCompile Include="GUI\ShopGUI.cpp" />
+    <ClCompile Include="GUI\TemplateEditorGUI.cpp" />
+    <ClCompile Include="hitBox.cpp" />
+    <ClCompile Include="IconManager.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Interpolator.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Math\Matrix.cpp" />
+    <ClCompile Include="Math\Matrix3x3.cpp" />
+    <ClCompile Include="Math\Noise2D.cpp" />
+    <ClCompile Include="Math\Quaternion.cpp" />
+    <ClCompile Include="Math\Vector.cpp" />
+    <ClCompile Include="Math\Vector3I.cpp" />
+    <ClCompile Include="Math\Vector4f.cpp" />
+    <ClCompile Include="Observer.cpp" />
+    <ClCompile Include="OpenGLHandler.cpp" />
+    <ClCompile Include="Position.cpp" />
+    <ClCompile Include="Rendering\AnimationInfo.cpp" />
+    <ClCompile Include="Rendering\DeferredRenderer\DeferredRenderer.cpp" />
+    <ClCompile Include="Rendering\DeferredRenderer\GBuffer.cpp" />
+    <ClCompile Include="Rendering\Drawable.cpp" />
+    <ClCompile Include="Rendering\Instanciable.cpp" />
+    <ClCompile Include="Rendering\Mesh\Animation.cpp" />
+    <ClCompile Include="Rendering\Mesh\HitpointBarMesh.cpp" />
+    <ClCompile Include="Rendering\Mesh\Mesh.cpp" />
+    <ClCompile Include="Rendering\RenderInformation.cpp" />
+    <ClCompile Include="Rendering\Texture.cpp" />
+    <ClCompile Include="Rendering\WhiteCircle.cpp" />
+    <ClCompile Include="Rendering\WhiteLine.cpp" />
+    <ClCompile Include="Rendering\WhiteLineInstanciable.cpp" />
+    <ClCompile Include="Rendering\WhiteRectangle.cpp" />
+    <ClCompile Include="Rendering\WhitePrismeInstanciable.cpp" />
+    <ClCompile Include="Rendering\WhiteTerrainLine.cpp" />
+    <ClCompile Include="SceneOpenGL.cpp" />
+    <ClCompile Include="Serializer.cpp" />
+    <ClCompile Include="Shaders\DirLightPassShader.cpp" />
+    <ClCompile Include="Shaders\GeomPassShader.cpp" />
+    <ClCompile Include="Shaders\PointLightPassShader.cpp" />
+    <ClCompile Include="Shaders\Shader.cpp" />
+    <ClCompile Include="Shaders\ShaderMap.cpp" />
+    <ClCompile Include="Shaders\ShaderNull.cpp" />
+    <ClCompile Include="Shaders\ShaderSkyBox.cpp" />
+    <ClCompile Include="Shaders\ShaderWhiteLine.cpp" />
+    <ClCompile Include="Terrain\Chunk.cpp" />
+    <ClCompile Include="Terrain\MarchingCube.cpp" />
+    <ClCompile Include="Terrain\SkyBox.cpp" />
+    <ClCompile Include="Terrain\Terrain.cpp" />
+    <ClCompile Include="Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI\Actions\Action.h" />
+    <ClInclude Include="AI\Actions\AddAction.h" />
+    <ClInclude Include="AI\Actions\BuildTemplateAction.h" />
+    <ClInclude Include="AI\Actions\DeleteAction.h" />
+    <ClInclude Include="AI\Actions\MoveAction.h" />
+    <ClInclude Include="AI\Actions\MoveAStarAction.h" />
+    <ClInclude Include="AI\Actions\MoveGroupAction.h" />
+    <ClInclude Include="AI\AStar.h" />
+    <ClInclude Include="AI\BoidGroup.h" />
+    <ClInclude Include="AI\Node.h" />
+    <ClInclude Include="Building\Building.h" />
+    <ClInclude Include="Building\Cycle.h" />
+    <ClInclude Include="Building\BuildingNode.h" />
+    <ClInclude Include="Building\Template.h" />
+    <ClInclude Include="Building\TemplateManager.h" />
+    <ClInclude Include="Camera\Camera.h" />
+    <ClInclude Include="Camera\CameraRTS.h" />
+    <ClInclude Include="Debugger\GlDebugger.h" />
+    <ClInclude Include="Debugger\ProgTools.h" />
+    <ClInclude Include="definition.h" />
+    <ClInclude Include="Entities\AnimationInfo.h" />
+    <ClInclude Include="Entities\HitpointEntity.h" />
+    <ClInclude Include="Entities\House.h" />
+    <ClInclude Include="Entities\Item.h" />
+    <ClInclude Include="Entities\ItemFactory.h" />
+    <ClInclude Include="Entities\ItemInformation.h" />
+    <ClInclude Include="Entities\Ressources\HumanRessources.h" />
+    <ClInclude Include="Entities\Ressources\Ressources.h" />
+    <ClInclude Include="Entities\Unit.h" />
+    <ClInclude Include="Entities\UnitHandler.h" />
+    <ClInclude Include="Entities\Wearable\Armor.h" />
+    <ClInclude Include="Entities\Wearable\KevlarHelmet.h" />
+    <ClInclude Include="Entities\Wieldable\ConstructorWeapon.h" />
+    <ClInclude Include="Entities\Wieldable\Mac10.h" />
+    <ClInclude Include="Entities\Wieldable\Weapon.h" />
+    <ClInclude Include="GUI\ConsoleGUI.h" />
+    <ClInclude Include="GUI\DebugHUD.h" />
+    <ClInclude Include="GUI\EscapeMenuGUI.h" />
+    <ClInclude Include="GUI\FPSGUI.h" />
+    <ClInclude Include="GUI\GUI.h" />
+    <ClInclude Include="GUI\GUIHandler.h" />
+    <ClInclude Include="GUI\MainMenuGUI.h" />
+    <ClInclude Include="GUI\MapGUI.h" />
+    <ClInclude Include="GUI\MaterialSelectionGUI.h" />
+    <ClInclude Include="GUI\RTSAction\ChooseTemplateAction.h" />
+    <ClInclude Include="GUI\RTSAction\FillAction.h" />
+    <ClInclude Include="GUI\RTSAction\RTSAction.h" />
+    <ClInclude Include="GUI\RTSAction\TemplateCreationAction.h" />
+    <ClInclude Include="GUI\RTSAction\UpgradeAction.h" />
+    <ClInclude Include="GUI\RTSGUI.h" />
+    <ClInclude Include="GUI\ShopGUI.h" />
+    <ClInclude Include="GUI\TemplateEditorGUI.h" />
+    <ClInclude Include="hitBox.h" />
+    <ClInclude Include="IconManager.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Interpolator.h" />
+    <ClInclude Include="Math\Matrix.h" />
+    <ClInclude Include="Math\Matrix3x3.h" />
+    <ClInclude Include="Math\Noise2D.h" />
+    <ClInclude Include="Math\Quaternion.h" />
+    <ClInclude Include="Math\Vector.h" />
+    <ClInclude Include="Math\Vector3I.h" />
+    <ClInclude Include="Math\Vector4f.h" />
+    <ClInclude Include="Observer.h" />
+    <ClInclude Include="OpenGLHandler.h" />
+    <ClInclude Include="Position.h" />
+    <ClInclude Include="Rendering\AnimationInfo.h" />
+    <ClInclude Include="Rendering\Color.h" />
+    <ClInclude Include="Rendering\DeferredRenderer\DeferredRenderer.h" />
+    <ClInclude Include="Rendering\DeferredRenderer\GBuffer.h" />
+    <ClInclude Include="Rendering\DeferredRenderer\LightsCommon.h" />
+    <ClInclude Include="Rendering\DeferredRenderer\Util.h" />
+    <ClInclude Include="Rendering\Drawable.h" />
+    <ClInclude Include="Rendering\Instanciable.h" />
+    <ClInclude Include="Rendering\Mesh\Animation.h" />
+    <ClInclude Include="Rendering\Mesh\HitpointBarMesh.h" />
+    <ClInclude Include="Rendering\Mesh\Mesh.h" />
+    <ClInclude Include="Rendering\RenderInformation.h" />
+    <ClInclude Include="Rendering\Texture.h" />
+    <ClInclude Include="Rendering\WhiteCircle.h" />
+    <ClInclude Include="Rendering\WhiteLine.h" />
+    <ClInclude Include="Rendering\WhiteLineInstanciable.h" />
+    <ClInclude Include="Rendering\WhiteRectangle.h" />
+    <ClInclude Include="Rendering\WhitePrismeInstanciable.h" />
+    <ClInclude Include="Rendering\WhiteTerrainLine.h" />
+    <ClInclude Include="SceneOpenGL.h" />
+    <ClInclude Include="Serializer.h" />
+    <ClInclude Include="Shaders\DirLightPassShader.h" />
+    <ClInclude Include="Shaders\GeomPassShader.h" />
+    <ClInclude Include="Shaders\PointLightPassShader.h" />
+    <ClInclude Include="Shaders\Shader.h" />
+    <ClInclude Include="Shaders\ShaderMap.h" />
+    <ClInclude Include="Shaders\ShaderNull.h" />
+    <ClInclude Include="Shaders\ShaderSkyBox.h" />
+    <ClInclude Include="Shaders\ShaderWhiteLine.h" />
+    <ClInclude Include="Terrain\Chunk.h" />
+    <ClInclude Include="Terrain\MarchingCube.h" />
+    <ClInclude Include="Terrain\SkyBox.h" />
+    <ClInclude Include="Terrain\Terrain.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
